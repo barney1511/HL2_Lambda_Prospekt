@@ -227,3 +227,2980 @@ Level flags = 0
 Total triangle count: 9282
 Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
 23 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (224929 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 392 texinfos to 330
+Reduced 121 texdatas to 119 (2782 bytes to 2677)
+Writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.prt
+ 944 portalclusters
+2750 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 69719 visible clusters (12.54%)
+Total clusters visible: 555763
+Average clusters visible: 588
+Building PAS...
+Average clusters audible: 916
+visdatasize:220526  compressed from 226560
+writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3303 faces
+484367 square feet [69748944.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3303 patches before subdivision
+36065 patches after subdivision
+38 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2247405, max 462
+transfer lists:  17.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(33600, 20508, 17100)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6970, 2647, 2072)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1971, 428, 328)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(673, 78, 58)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(270, 16, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(118, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(55, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0156 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  37/1024         1776/49152    ( 3.6%) 
+brushes                425/8192         5100/98304    ( 5.2%) 
+brushsides            2661/65536       21288/524288   ( 4.1%) 
+planes                1900/65536       38000/1310720  ( 2.9%) 
+vertexes              4906/65536       58872/786432   ( 7.5%) 
+nodes                 2087/65536       66784/2097152  ( 3.2%) 
+texinfos               330/12288       23760/884736   ( 2.7%) 
+texdata                119/2048         3808/65536    ( 5.8%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3303/65536      184968/3670016  ( 5.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1760/65536       98560/3670016  ( 2.7%) 
+leaves                2125/65536       68000/2097152  ( 3.2%) 
+leaffaces             3753/65536        7506/131072   ( 5.7%) 
+leafbrushes           1099/65536        2198/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            22972/512000      91888/2048000  ( 4.5%) 
+edges                12647/256000      50588/1024000  ( 4.9%) 
+LDR worldlights         38/8192         3344/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            311/32768        3110/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4947/65536        9894/131072   ( 7.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                91/512         32032/180224   (17.8%) 
+LDR lightdata         [variable]     1201764/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      220526/16777216 ( 1.3%) 
+entdata               [variable]      140862/393216   (35.8%) 
+LDR ambient table     2125/65536        8500/262144   ( 3.2%) 
+HDR ambient table     2125/65536        8500/262144   ( 3.2%) 
+LDR leaf ambient      8369/65536      234332/1835008  (12.8%) 
+HDR leaf ambient      2125/65536       59500/1835008  ( 3.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/10730    ( 0.0%) 
+pakfile               [variable]      211985/0        ( 0.0%) 
+physics               [variable]      224929/4194304  ( 5.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9302
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+23 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3303 faces
+484367 square feet [69748944.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3303 patches before subdivision
+36065 patches after subdivision
+38 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2247405, max 462
+transfer lists:  17.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(33600, 20508, 17100)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6970, 2647, 2072)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1971, 428, 328)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(673, 78, 58)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(270, 16, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(118, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(55, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0153 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  37/1024         1776/49152    ( 3.6%) 
+brushes                425/8192         5100/98304    ( 5.2%) 
+brushsides            2661/65536       21288/524288   ( 4.1%) 
+planes                1900/65536       38000/1310720  ( 2.9%) 
+vertexes              4906/65536       58872/786432   ( 7.5%) 
+nodes                 2087/65536       66784/2097152  ( 3.2%) 
+texinfos               330/12288       23760/884736   ( 2.7%) 
+texdata                119/2048         3808/65536    ( 5.8%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3303/65536      184968/3670016  ( 5.0%) 
+hdr faces             3303/65536      184968/3670016  ( 5.0%) 
+origfaces             1760/65536       98560/3670016  ( 2.7%) 
+leaves                2125/65536       68000/2097152  ( 3.2%) 
+leaffaces             3753/65536        7506/131072   ( 5.7%) 
+leafbrushes           1099/65536        2198/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            22972/512000      91888/2048000  ( 4.5%) 
+edges                12647/256000      50588/1024000  ( 4.9%) 
+LDR worldlights         38/8192         3344/720896   ( 0.5%) 
+HDR worldlights         38/8192         3344/720896   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            311/32768        3110/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4947/65536        9894/131072   ( 7.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                91/512         32032/180224   (17.8%) 
+LDR lightdata         [variable]     1201764/0        ( 0.0%) 
+HDR lightdata         [variable]     1201764/0        ( 0.0%) 
+visdata               [variable]      220526/16777216 ( 1.3%) 
+entdata               [variable]      140862/393216   (35.8%) 
+LDR ambient table     2125/65536        8500/262144   ( 3.2%) 
+HDR ambient table     2125/65536        8500/262144   ( 3.2%) 
+LDR leaf ambient      8369/65536      234332/1835008  (12.8%) 
+HDR leaf ambient      8369/65536      234332/1835008  (12.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/10730    ( 0.0%) 
+pakfile               [variable]      211985/0        ( 0.0%) 
+physics               [variable]      224929/4194304  ( 5.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9302
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+23 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (225321 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 396 texinfos to 333
+Reduced 122 texdatas to 120 (2804 bytes to 2699)
+Writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.prt
+ 954 portalclusters
+2768 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 70248 visible clusters (12.55%)
+Total clusters visible: 559624
+Average clusters visible: 586
+Building PAS...
+Average clusters audible: 924
+visdatasize:226249  compressed from 228960
+writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3326 faces
+484613 square feet [69784288.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3326 patches before subdivision
+36470 patches after subdivision
+39 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2289533, max 461
+transfer lists:  17.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(34183, 20859, 17323)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7116, 2696, 2101)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2028, 436, 332)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(693, 80, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(279, 16, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(121, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(56, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0135 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  37/1024         1776/49152    ( 3.6%) 
+brushes                426/8192         5112/98304    ( 5.2%) 
+brushsides            2667/65536       21336/524288   ( 4.1%) 
+planes                1906/65536       38120/1310720  ( 2.9%) 
+vertexes              4941/65536       59292/786432   ( 7.5%) 
+nodes                 2104/65536       67328/2097152  ( 3.2%) 
+texinfos               333/12288       23976/884736   ( 2.7%) 
+texdata                120/2048         3840/65536    ( 5.9%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3326/65536      186256/3670016  ( 5.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1766/65536       98896/3670016  ( 2.7%) 
+leaves                2142/65536       68544/2097152  ( 3.3%) 
+leaffaces             3767/65536        7534/131072   ( 5.7%) 
+leafbrushes           1113/65536        2226/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            23109/512000      92436/2048000  ( 4.5%) 
+edges                12717/256000      50868/1024000  ( 5.0%) 
+LDR worldlights         39/8192         3432/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            322/32768        3220/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5100/65536       10200/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                93/512         32736/180224   (18.2%) 
+LDR lightdata         [variable]     1205116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      226249/16777216 ( 1.3%) 
+entdata               [variable]      142187/393216   (36.2%) 
+LDR ambient table     2142/65536        8568/262144   ( 3.3%) 
+HDR ambient table     2142/65536        8568/262144   ( 3.3%) 
+LDR leaf ambient      8616/65536      241248/1835008  (13.1%) 
+HDR leaf ambient      2142/65536       59976/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/10928    ( 0.0%) 
+pakfile               [variable]      211985/0        ( 0.0%) 
+physics               [variable]      225321/4194304  ( 5.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9369
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+24 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3326 faces
+484613 square feet [69784288.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3326 patches before subdivision
+36470 patches after subdivision
+39 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2289533, max 461
+transfer lists:  17.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(34183, 20859, 17323)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7116, 2696, 2101)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2028, 436, 332)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(693, 80, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(279, 16, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(121, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(56, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0149 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  37/1024         1776/49152    ( 3.6%) 
+brushes                426/8192         5112/98304    ( 5.2%) 
+brushsides            2667/65536       21336/524288   ( 4.1%) 
+planes                1906/65536       38120/1310720  ( 2.9%) 
+vertexes              4941/65536       59292/786432   ( 7.5%) 
+nodes                 2104/65536       67328/2097152  ( 3.2%) 
+texinfos               333/12288       23976/884736   ( 2.7%) 
+texdata                120/2048         3840/65536    ( 5.9%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3326/65536      186256/3670016  ( 5.1%) 
+hdr faces             3326/65536      186256/3670016  ( 5.1%) 
+origfaces             1766/65536       98896/3670016  ( 2.7%) 
+leaves                2142/65536       68544/2097152  ( 3.3%) 
+leaffaces             3767/65536        7534/131072   ( 5.7%) 
+leafbrushes           1113/65536        2226/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            23109/512000      92436/2048000  ( 4.5%) 
+edges                12717/256000      50868/1024000  ( 5.0%) 
+LDR worldlights         39/8192         3432/720896   ( 0.5%) 
+HDR worldlights         39/8192         3432/720896   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            322/32768        3220/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5100/65536       10200/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                93/512         32736/180224   (18.2%) 
+LDR lightdata         [variable]     1205116/0        ( 0.0%) 
+HDR lightdata         [variable]     1205116/0        ( 0.0%) 
+visdata               [variable]      226249/16777216 ( 1.3%) 
+entdata               [variable]      142187/393216   (36.2%) 
+LDR ambient table     2142/65536        8568/262144   ( 3.3%) 
+HDR ambient table     2142/65536        8568/262144   ( 3.3%) 
+LDR leaf ambient      8616/65536      241248/1835008  (13.1%) 
+HDR leaf ambient      8616/65536      241248/1835008  (13.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/10928    ( 0.0%) 
+pakfile               [variable]      211985/0        ( 0.0%) 
+physics               [variable]      225321/4194304  ( 5.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9369
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+24 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (225321 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 396 texinfos to 333
+Reduced 122 texdatas to 120 (2804 bytes to 2699)
+Writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.prt
+ 954 portalclusters
+2768 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 70248 visible clusters (12.55%)
+Total clusters visible: 559624
+Average clusters visible: 586
+Building PAS...
+Average clusters audible: 924
+visdatasize:226249  compressed from 228960
+writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3326 faces
+484613 square feet [69784288.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3326 patches before subdivision
+36470 patches after subdivision
+40 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2289560, max 461
+transfer lists:  17.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(34181, 20857, 17321)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7115, 2696, 2101)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2028, 436, 332)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(693, 80, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(279, 16, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(121, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(56, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0134 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  37/1024         1776/49152    ( 3.6%) 
+brushes                426/8192         5112/98304    ( 5.2%) 
+brushsides            2667/65536       21336/524288   ( 4.1%) 
+planes                1906/65536       38120/1310720  ( 2.9%) 
+vertexes              4941/65536       59292/786432   ( 7.5%) 
+nodes                 2104/65536       67328/2097152  ( 3.2%) 
+texinfos               333/12288       23976/884736   ( 2.7%) 
+texdata                120/2048         3840/65536    ( 5.9%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3326/65536      186256/3670016  ( 5.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1766/65536       98896/3670016  ( 2.7%) 
+leaves                2142/65536       68544/2097152  ( 3.3%) 
+leaffaces             3767/65536        7534/131072   ( 5.7%) 
+leafbrushes           1113/65536        2226/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            23109/512000      92436/2048000  ( 4.5%) 
+edges                12717/256000      50868/1024000  ( 5.0%) 
+LDR worldlights         40/8192         3520/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            322/32768        3220/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5100/65536       10200/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                93/512         32736/180224   (18.2%) 
+LDR lightdata         [variable]     1230072/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      226249/16777216 ( 1.3%) 
+entdata               [variable]      142572/393216   (36.3%) 
+LDR ambient table     2142/65536        8568/262144   ( 3.3%) 
+HDR ambient table     2142/65536        8568/262144   ( 3.3%) 
+LDR leaf ambient      8614/65536      241192/1835008  (13.1%) 
+HDR leaf ambient      2142/65536       59976/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/10928    ( 0.0%) 
+pakfile               [variable]      211985/0        ( 0.0%) 
+physics               [variable]      225321/4194304  ( 5.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9369
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+24 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3326 faces
+484613 square feet [69784288.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3326 patches before subdivision
+36470 patches after subdivision
+40 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2289560, max 461
+transfer lists:  17.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(34181, 20857, 17321)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7115, 2696, 2101)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2028, 436, 332)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(693, 80, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(279, 16, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(121, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(56, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0175 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  37/1024         1776/49152    ( 3.6%) 
+brushes                426/8192         5112/98304    ( 5.2%) 
+brushsides            2667/65536       21336/524288   ( 4.1%) 
+planes                1906/65536       38120/1310720  ( 2.9%) 
+vertexes              4941/65536       59292/786432   ( 7.5%) 
+nodes                 2104/65536       67328/2097152  ( 3.2%) 
+texinfos               333/12288       23976/884736   ( 2.7%) 
+texdata                120/2048         3840/65536    ( 5.9%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3326/65536      186256/3670016  ( 5.1%) 
+hdr faces             3326/65536      186256/3670016  ( 5.1%) 
+origfaces             1766/65536       98896/3670016  ( 2.7%) 
+leaves                2142/65536       68544/2097152  ( 3.3%) 
+leaffaces             3767/65536        7534/131072   ( 5.7%) 
+leafbrushes           1113/65536        2226/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            23109/512000      92436/2048000  ( 4.5%) 
+edges                12717/256000      50868/1024000  ( 5.0%) 
+LDR worldlights         40/8192         3520/720896   ( 0.5%) 
+HDR worldlights         40/8192         3520/720896   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            322/32768        3220/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5100/65536       10200/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                93/512         32736/180224   (18.2%) 
+LDR lightdata         [variable]     1230072/0        ( 0.0%) 
+HDR lightdata         [variable]     1230072/0        ( 0.0%) 
+visdata               [variable]      226249/16777216 ( 1.3%) 
+entdata               [variable]      142572/393216   (36.3%) 
+LDR ambient table     2142/65536        8568/262144   ( 3.3%) 
+HDR ambient table     2142/65536        8568/262144   ( 3.3%) 
+LDR leaf ambient      8614/65536      241192/1835008  (13.1%) 
+HDR leaf ambient      8614/65536      241192/1835008  (13.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/10928    ( 0.0%) 
+pakfile               [variable]      211985/0        ( 0.0%) 
+physics               [variable]      225321/4194304  ( 5.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9369
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+24 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (228409 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 408 texinfos to 345
+Reduced 130 texdatas to 128 (2979 bytes to 2874)
+Writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.prt
+ 981 portalclusters
+2838 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 71982 visible clusters (12.71%)
+Total clusters visible: 566501
+Average clusters visible: 577
+Building PAS...
+Average clusters audible: 947
+visdatasize:237119  compressed from 251136
+writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3416 faces
+484888 square feet [69823984.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3416 patches before subdivision
+36664 patches after subdivision
+40 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2301165, max 463
+transfer lists:  17.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(34086, 20760, 17340)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7095, 2679, 2099)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2022, 433, 332)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(691, 79, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(278, 16, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(121, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(56, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0163 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  37/1024         1776/49152    ( 3.6%) 
+brushes                434/8192         5208/98304    ( 5.3%) 
+brushsides            2715/65536       21720/524288   ( 4.1%) 
+planes                1956/65536       39120/1310720  ( 3.0%) 
+vertexes              5069/65536       60828/786432   ( 7.7%) 
+nodes                 2135/65536       68320/2097152  ( 3.3%) 
+texinfos               345/12288       24840/884736   ( 2.8%) 
+texdata                128/2048         4096/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3416/65536      191296/3670016  ( 5.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1798/65536      100688/3670016  ( 2.7%) 
+leaves                2173/65536       69536/2097152  ( 3.3%) 
+leaffaces             3896/65536        7792/131072   ( 5.9%) 
+leafbrushes           1116/65536        2232/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            23663/512000      94652/2048000  ( 4.6%) 
+edges                13033/256000      52132/1024000  ( 5.1%) 
+LDR worldlights         40/8192         3520/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            325/32768        3250/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5130/65536       10260/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1237288/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      237119/16777216 ( 1.4%) 
+entdata               [variable]      145981/393216   (37.1%) 
+LDR ambient table     2173/65536        8692/262144   ( 3.3%) 
+HDR ambient table     2173/65536        8692/262144   ( 3.3%) 
+LDR leaf ambient      8670/65536      242760/1835008  (13.2%) 
+HDR leaf ambient      2173/65536       60844/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11406    ( 0.0%) 
+pakfile               [variable]      211985/0        ( 0.0%) 
+physics               [variable]      228409/4194304  ( 5.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9615
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+29 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3416 faces
+484888 square feet [69823984.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3416 patches before subdivision
+36664 patches after subdivision
+40 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2301165, max 463
+transfer lists:  17.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(34086, 20760, 17340)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7095, 2679, 2099)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2022, 433, 332)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(691, 79, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(278, 16, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(121, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(56, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0231 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  37/1024         1776/49152    ( 3.6%) 
+brushes                434/8192         5208/98304    ( 5.3%) 
+brushsides            2715/65536       21720/524288   ( 4.1%) 
+planes                1956/65536       39120/1310720  ( 3.0%) 
+vertexes              5069/65536       60828/786432   ( 7.7%) 
+nodes                 2135/65536       68320/2097152  ( 3.3%) 
+texinfos               345/12288       24840/884736   ( 2.8%) 
+texdata                128/2048         4096/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3416/65536      191296/3670016  ( 5.2%) 
+hdr faces             3416/65536      191296/3670016  ( 5.2%) 
+origfaces             1798/65536      100688/3670016  ( 2.7%) 
+leaves                2173/65536       69536/2097152  ( 3.3%) 
+leaffaces             3896/65536        7792/131072   ( 5.9%) 
+leafbrushes           1116/65536        2232/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            23663/512000      94652/2048000  ( 4.6%) 
+edges                13033/256000      52132/1024000  ( 5.1%) 
+LDR worldlights         40/8192         3520/720896   ( 0.5%) 
+HDR worldlights         40/8192         3520/720896   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            325/32768        3250/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5130/65536       10260/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1237288/0        ( 0.0%) 
+HDR lightdata         [variable]     1237288/0        ( 0.0%) 
+visdata               [variable]      237119/16777216 ( 1.4%) 
+entdata               [variable]      145981/393216   (37.1%) 
+LDR ambient table     2173/65536        8692/262144   ( 3.3%) 
+HDR ambient table     2173/65536        8692/262144   ( 3.3%) 
+LDR leaf ambient      8670/65536      242760/1835008  (13.2%) 
+HDR leaf ambient      8670/65536      242760/1835008  (13.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11406    ( 0.0%) 
+pakfile               [variable]      211985/0        ( 0.0%) 
+physics               [variable]      228409/4194304  ( 5.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9615
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+29 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (232237 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 425 texinfos to 362
+Reduced 130 texdatas to 128 (2979 bytes to 2874)
+Writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.bsp
+3 seconds elapsed
+
+
+
+4 threads
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.prt
+ 981 portalclusters
+2838 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 71982 visible clusters (12.71%)
+Total clusters visible: 566501
+Average clusters visible: 577
+Building PAS...
+Average clusters audible: 947
+visdatasize:237119  compressed from 251136
+writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3466 faces
+486364 square feet [70036544.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3466 patches before subdivision
+37274 patches after subdivision
+41 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2331471, max 463
+transfer lists:  17.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(34552, 21205, 17860)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7137, 2710, 2136)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2029, 437, 335)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(693, 79, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(279, 16, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(121, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(56, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0149 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes                441/8192         5292/98304    ( 5.4%) 
+brushsides            2779/65536       22232/524288   ( 4.2%) 
+planes                2098/65536       41960/1310720  ( 3.2%) 
+vertexes              5141/65536       61692/786432   ( 7.8%) 
+nodes                 2177/65536       69664/2097152  ( 3.3%) 
+texinfos               362/12288       26064/884736   ( 2.9%) 
+texdata                128/2048         4096/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3466/65536      194096/3670016  ( 5.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1840/65536      103040/3670016  ( 2.8%) 
+leaves                2222/65536       71104/2097152  ( 3.4%) 
+leaffaces             3946/65536        7892/131072   ( 6.0%) 
+leafbrushes           1123/65536        2246/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            24047/512000      96188/2048000  ( 4.7%) 
+edges                13225/256000      52900/1024000  ( 5.2%) 
+LDR worldlights         41/8192         3608/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            325/32768        3250/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5130/65536       10260/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1266248/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      237119/16777216 ( 1.4%) 
+entdata               [variable]      153006/393216   (38.9%) 
+LDR ambient table     2222/65536        8888/262144   ( 3.4%) 
+HDR ambient table     2222/65536        8888/262144   ( 3.4%) 
+LDR leaf ambient      8826/65536      247128/1835008  (13.5%) 
+HDR leaf ambient      2222/65536       62216/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11602    ( 0.0%) 
+pakfile               [variable]      211985/0        ( 0.0%) 
+physics               [variable]      232237/4194304  ( 5.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9731
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+32 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3466 faces
+486364 square feet [70036544.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3466 patches before subdivision
+37274 patches after subdivision
+41 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2331471, max 463
+transfer lists:  17.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(34552, 21205, 17860)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7137, 2710, 2136)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2029, 437, 335)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(693, 79, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(279, 16, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(121, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(56, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0193 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes                441/8192         5292/98304    ( 5.4%) 
+brushsides            2779/65536       22232/524288   ( 4.2%) 
+planes                2098/65536       41960/1310720  ( 3.2%) 
+vertexes              5141/65536       61692/786432   ( 7.8%) 
+nodes                 2177/65536       69664/2097152  ( 3.3%) 
+texinfos               362/12288       26064/884736   ( 2.9%) 
+texdata                128/2048         4096/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3466/65536      194096/3670016  ( 5.3%) 
+hdr faces             3466/65536      194096/3670016  ( 5.3%) 
+origfaces             1840/65536      103040/3670016  ( 2.8%) 
+leaves                2222/65536       71104/2097152  ( 3.4%) 
+leaffaces             3946/65536        7892/131072   ( 6.0%) 
+leafbrushes           1123/65536        2246/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            24047/512000      96188/2048000  ( 4.7%) 
+edges                13225/256000      52900/1024000  ( 5.2%) 
+LDR worldlights         41/8192         3608/720896   ( 0.5%) 
+HDR worldlights         41/8192         3608/720896   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            325/32768        3250/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5130/65536       10260/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1266248/0        ( 0.0%) 
+HDR lightdata         [variable]     1266248/0        ( 0.0%) 
+visdata               [variable]      237119/16777216 ( 1.4%) 
+entdata               [variable]      153006/393216   (38.9%) 
+LDR ambient table     2222/65536        8888/262144   ( 3.4%) 
+HDR ambient table     2222/65536        8888/262144   ( 3.4%) 
+LDR leaf ambient      8826/65536      247128/1835008  (13.5%) 
+HDR leaf ambient      8826/65536      247128/1835008  (13.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11602    ( 0.0%) 
+pakfile               [variable]      211985/0        ( 0.0%) 
+physics               [variable]      232237/4194304  ( 5.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9731
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+33 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (232786 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 428 texinfos to 365
+Reduced 130 texdatas to 128 (2985 bytes to 2880)
+Writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.prt
+ 981 portalclusters
+2837 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 71981 visible clusters (12.71%)
+Total clusters visible: 566446
+Average clusters visible: 577
+Building PAS...
+Average clusters audible: 947
+visdatasize:237119  compressed from 251136
+writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3472 faces
+486484 square feet [70053824.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3472 patches before subdivision
+37304 patches after subdivision
+42 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2333155, max 463
+transfer lists:  17.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(34664, 21304, 17991)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7155, 2722, 2148)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2034, 438, 336)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(695, 80, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(280, 16, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(122, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(56, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0174 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                442/8192         5304/98304    ( 5.4%) 
+brushsides            2785/65536       22280/524288   ( 4.2%) 
+planes                2120/65536       42400/1310720  ( 3.2%) 
+vertexes              5149/65536       61788/786432   ( 7.9%) 
+nodes                 2183/65536       69856/2097152  ( 3.3%) 
+texinfos               365/12288       26280/884736   ( 3.0%) 
+texdata                128/2048         4096/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3472/65536      194432/3670016  ( 5.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1846/65536      103376/3670016  ( 2.8%) 
+leaves                2229/65536       71328/2097152  ( 3.4%) 
+leaffaces             3953/65536        7906/131072   ( 6.0%) 
+leafbrushes           1124/65536        2248/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            24095/512000      96380/2048000  ( 4.7%) 
+edges                13249/256000      52996/1024000  ( 5.2%) 
+LDR worldlights         42/8192         3696/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            325/32768        3250/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5130/65536       10260/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1267184/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      237119/16777216 ( 1.4%) 
+entdata               [variable]      154691/393216   (39.3%) 
+LDR ambient table     2229/65536        8916/262144   ( 3.4%) 
+HDR ambient table     2229/65536        8916/262144   ( 3.4%) 
+LDR leaf ambient      8843/65536      247604/1835008  (13.5%) 
+HDR leaf ambient      2229/65536       62412/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11602    ( 0.0%) 
+pakfile               [variable]      211985/0        ( 0.0%) 
+physics               [variable]      232786/4194304  ( 5.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9743
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+26 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3472 faces
+486484 square feet [70053824.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3472 patches before subdivision
+37304 patches after subdivision
+42 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2333155, max 463
+transfer lists:  17.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(34664, 21304, 17991)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7155, 2722, 2148)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2034, 438, 336)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(695, 80, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(280, 16, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(122, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(56, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0147 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                442/8192         5304/98304    ( 5.4%) 
+brushsides            2785/65536       22280/524288   ( 4.2%) 
+planes                2120/65536       42400/1310720  ( 3.2%) 
+vertexes              5149/65536       61788/786432   ( 7.9%) 
+nodes                 2183/65536       69856/2097152  ( 3.3%) 
+texinfos               365/12288       26280/884736   ( 3.0%) 
+texdata                128/2048         4096/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3472/65536      194432/3670016  ( 5.3%) 
+hdr faces             3472/65536      194432/3670016  ( 5.3%) 
+origfaces             1846/65536      103376/3670016  ( 2.8%) 
+leaves                2229/65536       71328/2097152  ( 3.4%) 
+leaffaces             3953/65536        7906/131072   ( 6.0%) 
+leafbrushes           1124/65536        2248/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            24095/512000      96380/2048000  ( 4.7%) 
+edges                13249/256000      52996/1024000  ( 5.2%) 
+LDR worldlights         42/8192         3696/720896   ( 0.5%) 
+HDR worldlights         42/8192         3696/720896   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            325/32768        3250/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5130/65536       10260/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1267184/0        ( 0.0%) 
+HDR lightdata         [variable]     1267184/0        ( 0.0%) 
+visdata               [variable]      237119/16777216 ( 1.4%) 
+entdata               [variable]      154691/393216   (39.3%) 
+LDR ambient table     2229/65536        8916/262144   ( 3.4%) 
+HDR ambient table     2229/65536        8916/262144   ( 3.4%) 
+LDR leaf ambient      8843/65536      247604/1835008  (13.5%) 
+HDR leaf ambient      8843/65536      247604/1835008  (13.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11602    ( 0.0%) 
+pakfile               [variable]      211985/0        ( 0.0%) 
+physics               [variable]      232786/4194304  ( 5.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9743
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+25 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (232786 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 428 texinfos to 365
+Reduced 130 texdatas to 128 (2985 bytes to 2880)
+Writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.prt
+ 981 portalclusters
+2837 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 71981 visible clusters (12.71%)
+Total clusters visible: 566446
+Average clusters visible: 577
+Building PAS...
+Average clusters audible: 947
+visdatasize:237119  compressed from 251136
+writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3472 faces
+486484 square feet [70053824.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3472 patches before subdivision
+37304 patches after subdivision
+42 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2333155, max 463
+transfer lists:  17.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(34664, 21304, 17991)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7155, 2722, 2148)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2034, 438, 336)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(695, 80, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(280, 16, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(122, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(56, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0145 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                442/8192         5304/98304    ( 5.4%) 
+brushsides            2785/65536       22280/524288   ( 4.2%) 
+planes                2120/65536       42400/1310720  ( 3.2%) 
+vertexes              5149/65536       61788/786432   ( 7.9%) 
+nodes                 2183/65536       69856/2097152  ( 3.3%) 
+texinfos               365/12288       26280/884736   ( 3.0%) 
+texdata                128/2048         4096/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3472/65536      194432/3670016  ( 5.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1846/65536      103376/3670016  ( 2.8%) 
+leaves                2229/65536       71328/2097152  ( 3.4%) 
+leaffaces             3953/65536        7906/131072   ( 6.0%) 
+leafbrushes           1124/65536        2248/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            24095/512000      96380/2048000  ( 4.7%) 
+edges                13249/256000      52996/1024000  ( 5.2%) 
+LDR worldlights         42/8192         3696/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            325/32768        3250/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5130/65536       10260/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1267184/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      237119/16777216 ( 1.4%) 
+entdata               [variable]      162198/393216   (41.2%) 
+LDR ambient table     2229/65536        8916/262144   ( 3.4%) 
+HDR ambient table     2229/65536        8916/262144   ( 3.4%) 
+LDR leaf ambient      8843/65536      247604/1835008  (13.5%) 
+HDR leaf ambient      2229/65536       62412/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11602    ( 0.0%) 
+pakfile               [variable]      211985/0        ( 0.0%) 
+physics               [variable]      232786/4194304  ( 5.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9743
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+26 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3472 faces
+486484 square feet [70053824.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3472 patches before subdivision
+37304 patches after subdivision
+42 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2333155, max 463
+transfer lists:  17.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(34664, 21304, 17991)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7155, 2722, 2148)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2034, 438, 336)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(695, 80, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(280, 16, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(122, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(56, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0160 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                442/8192         5304/98304    ( 5.4%) 
+brushsides            2785/65536       22280/524288   ( 4.2%) 
+planes                2120/65536       42400/1310720  ( 3.2%) 
+vertexes              5149/65536       61788/786432   ( 7.9%) 
+nodes                 2183/65536       69856/2097152  ( 3.3%) 
+texinfos               365/12288       26280/884736   ( 3.0%) 
+texdata                128/2048         4096/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3472/65536      194432/3670016  ( 5.3%) 
+hdr faces             3472/65536      194432/3670016  ( 5.3%) 
+origfaces             1846/65536      103376/3670016  ( 2.8%) 
+leaves                2229/65536       71328/2097152  ( 3.4%) 
+leaffaces             3953/65536        7906/131072   ( 6.0%) 
+leafbrushes           1124/65536        2248/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            24095/512000      96380/2048000  ( 4.7%) 
+edges                13249/256000      52996/1024000  ( 5.2%) 
+LDR worldlights         42/8192         3696/720896   ( 0.5%) 
+HDR worldlights         42/8192         3696/720896   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            325/32768        3250/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5130/65536       10260/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1267184/0        ( 0.0%) 
+HDR lightdata         [variable]     1267184/0        ( 0.0%) 
+visdata               [variable]      237119/16777216 ( 1.4%) 
+entdata               [variable]      162198/393216   (41.2%) 
+LDR ambient table     2229/65536        8916/262144   ( 3.4%) 
+HDR ambient table     2229/65536        8916/262144   ( 3.4%) 
+LDR leaf ambient      8843/65536      247604/1835008  (13.5%) 
+HDR leaf ambient      8843/65536      247604/1835008  (13.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11602    ( 0.0%) 
+pakfile               [variable]      211985/0        ( 0.0%) 
+physics               [variable]      232786/4194304  ( 5.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9743
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+26 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (237866 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 432 texinfos to 369
+Reduced 132 texdatas to 129 (3059 bytes to 2906)
+Writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.prt
+1002 portalclusters
+2915 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 79926 visible clusters (13.48%)
+Total clusters visible: 592870
+Average clusters visible: 591
+Building PAS...
+Average clusters audible: 974
+visdatasize:247575  compressed from 256512
+writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3547 faces
+533082 square feet [76763824.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3547 patches before subdivision
+38169 patches after subdivision
+43 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2402593, max 464
+transfer lists:  18.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36764, 23473, 22640)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7488, 3097, 2842)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2064, 507, 448)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(681, 92, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(265, 19, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(112, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(50, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0193 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                455/8192         5460/98304    ( 5.6%) 
+brushsides            2877/65536       23016/524288   ( 4.4%) 
+planes                2188/65536       43760/1310720  ( 3.3%) 
+vertexes              5261/65536       63132/786432   ( 8.0%) 
+nodes                 2220/65536       71040/2097152  ( 3.4%) 
+texinfos               369/12288       26568/884736   ( 3.0%) 
+texdata                129/2048         4128/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3547/65536      198632/3670016  ( 5.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1886/65536      105616/3670016  ( 2.9%) 
+leaves                2266/65536       72512/2097152  ( 3.5%) 
+leaffaces             4011/65536        8022/131072   ( 6.1%) 
+leafbrushes           1141/65536        2282/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            24623/512000      98492/2048000  ( 4.8%) 
+edges                13576/256000      54304/1024000  ( 5.3%) 
+LDR worldlights         43/8192         3784/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            327/32768        3270/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5151/65536       10302/131072   ( 7.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1326312/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      247575/16777216 ( 1.5%) 
+entdata               [variable]      164563/393216   (41.9%) 
+LDR ambient table     2266/65536        9064/262144   ( 3.5%) 
+HDR ambient table     2266/65536        9064/262144   ( 3.5%) 
+LDR leaf ambient      8837/65536      247436/1835008  (13.5%) 
+HDR leaf ambient      2266/65536       63448/1835008  ( 3.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11600    ( 0.0%) 
+pakfile               [variable]      212312/0        ( 0.0%) 
+physics               [variable]      237866/4194304  ( 5.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9957
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+27 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3547 faces
+533082 square feet [76763824.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3547 patches before subdivision
+38169 patches after subdivision
+43 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2402593, max 464
+transfer lists:  18.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36764, 23473, 22640)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7488, 3097, 2842)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2064, 507, 448)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(681, 92, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(265, 19, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(112, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(50, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0141 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                455/8192         5460/98304    ( 5.6%) 
+brushsides            2877/65536       23016/524288   ( 4.4%) 
+planes                2188/65536       43760/1310720  ( 3.3%) 
+vertexes              5261/65536       63132/786432   ( 8.0%) 
+nodes                 2220/65536       71040/2097152  ( 3.4%) 
+texinfos               369/12288       26568/884736   ( 3.0%) 
+texdata                129/2048         4128/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3547/65536      198632/3670016  ( 5.4%) 
+hdr faces             3547/65536      198632/3670016  ( 5.4%) 
+origfaces             1886/65536      105616/3670016  ( 2.9%) 
+leaves                2266/65536       72512/2097152  ( 3.5%) 
+leaffaces             4011/65536        8022/131072   ( 6.1%) 
+leafbrushes           1141/65536        2282/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            24623/512000      98492/2048000  ( 4.8%) 
+edges                13576/256000      54304/1024000  ( 5.3%) 
+LDR worldlights         43/8192         3784/720896   ( 0.5%) 
+HDR worldlights         43/8192         3784/720896   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            327/32768        3270/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5151/65536       10302/131072   ( 7.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1326312/0        ( 0.0%) 
+HDR lightdata         [variable]     1326312/0        ( 0.0%) 
+visdata               [variable]      247575/16777216 ( 1.5%) 
+entdata               [variable]      164563/393216   (41.9%) 
+LDR ambient table     2266/65536        9064/262144   ( 3.5%) 
+HDR ambient table     2266/65536        9064/262144   ( 3.5%) 
+LDR leaf ambient      8837/65536      247436/1835008  (13.5%) 
+HDR leaf ambient      8837/65536      247436/1835008  (13.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11600    ( 0.0%) 
+pakfile               [variable]      212312/0        ( 0.0%) 
+physics               [variable]      237866/4194304  ( 5.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9957
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+28 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (239210 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 432 texinfos to 369
+Reduced 132 texdatas to 129 (3059 bytes to 2906)
+Writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.prt
+1011 portalclusters
+2945 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 80206 visible clusters (13.26%)
+Total clusters visible: 604701
+Average clusters visible: 598
+Building PAS...
+Average clusters audible: 983
+visdatasize:252403  compressed from 258816
+writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3561 faces
+533417 square feet [76812096.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3561 patches before subdivision
+38223 patches after subdivision
+43 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2420518, max 469
+transfer lists:  18.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36789, 23480, 22634)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7490, 3097, 2839)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2065, 506, 447)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(681, 92, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(265, 19, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(112, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(50, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0126 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                459/8192         5508/98304    ( 5.6%) 
+brushsides            2901/65536       23208/524288   ( 4.4%) 
+planes                2194/65536       43880/1310720  ( 3.3%) 
+vertexes              5276/65536       63312/786432   ( 8.1%) 
+nodes                 2233/65536       71456/2097152  ( 3.4%) 
+texinfos               369/12288       26568/884736   ( 3.0%) 
+texdata                129/2048         4128/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3561/65536      199416/3670016  ( 5.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1901/65536      106456/3670016  ( 2.9%) 
+leaves                2279/65536       72928/2097152  ( 3.5%) 
+leaffaces             4025/65536        8050/131072   ( 6.1%) 
+leafbrushes           1145/65536        2290/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            24741/512000      98964/2048000  ( 4.8%) 
+edges                13645/256000      54580/1024000  ( 5.3%) 
+LDR worldlights         43/8192         3784/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            327/32768        3270/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5151/65536       10302/131072   ( 7.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1333168/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      252403/16777216 ( 1.5%) 
+entdata               [variable]      164563/393216   (41.9%) 
+LDR ambient table     2279/65536        9116/262144   ( 3.5%) 
+HDR ambient table     2279/65536        9116/262144   ( 3.5%) 
+LDR leaf ambient      8891/65536      248948/1835008  (13.6%) 
+HDR leaf ambient      2279/65536       63812/1835008  ( 3.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11600    ( 0.0%) 
+pakfile               [variable]      212312/0        ( 0.0%) 
+physics               [variable]      239210/4194304  ( 5.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9987
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+29 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3561 faces
+533417 square feet [76812096.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3561 patches before subdivision
+38223 patches after subdivision
+43 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2420518, max 469
+transfer lists:  18.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36789, 23480, 22634)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7490, 3097, 2839)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2065, 506, 447)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(681, 92, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(265, 19, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(112, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(50, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0155 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                459/8192         5508/98304    ( 5.6%) 
+brushsides            2901/65536       23208/524288   ( 4.4%) 
+planes                2194/65536       43880/1310720  ( 3.3%) 
+vertexes              5276/65536       63312/786432   ( 8.1%) 
+nodes                 2233/65536       71456/2097152  ( 3.4%) 
+texinfos               369/12288       26568/884736   ( 3.0%) 
+texdata                129/2048         4128/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3561/65536      199416/3670016  ( 5.4%) 
+hdr faces             3561/65536      199416/3670016  ( 5.4%) 
+origfaces             1901/65536      106456/3670016  ( 2.9%) 
+leaves                2279/65536       72928/2097152  ( 3.5%) 
+leaffaces             4025/65536        8050/131072   ( 6.1%) 
+leafbrushes           1145/65536        2290/131072   ( 1.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            24741/512000      98964/2048000  ( 4.8%) 
+edges                13645/256000      54580/1024000  ( 5.3%) 
+LDR worldlights         43/8192         3784/720896   ( 0.5%) 
+HDR worldlights         43/8192         3784/720896   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            327/32768        3270/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5151/65536       10302/131072   ( 7.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1333168/0        ( 0.0%) 
+HDR lightdata         [variable]     1333168/0        ( 0.0%) 
+visdata               [variable]      252403/16777216 ( 1.5%) 
+entdata               [variable]      164563/393216   (41.9%) 
+LDR ambient table     2279/65536        9116/262144   ( 3.5%) 
+HDR ambient table     2279/65536        9116/262144   ( 3.5%) 
+LDR leaf ambient      8891/65536      248948/1835008  (13.6%) 
+HDR leaf ambient      8891/65536      248948/1835008  (13.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11600    ( 0.0%) 
+pakfile               [variable]      212312/0        ( 0.0%) 
+physics               [variable]      239210/4194304  ( 5.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 9987
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+28 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (248618 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 435 texinfos to 370
+Reduced 133 texdatas to 130 (3085 bytes to 2932)
+Writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.prt
+1076 portalclusters
+3125 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 97019 visible clusters (15.22%)
+Total clusters visible: 637405
+Average clusters visible: 592
+Building PAS...
+Average clusters audible: 1024
+visdatasize:281075  compressed from 292672
+writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3767 faces
+533539 square feet [76829744.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3767 patches before subdivision
+38219 patches after subdivision
+43 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2432532, max 472
+transfer lists:  18.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36538, 23465, 22893)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7456, 3110, 2888)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2042, 508, 454)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(675, 92, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(262, 19, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(111, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(50, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0134 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                483/8192         5796/98304    ( 5.9%) 
+brushsides            3045/65536       24360/524288   ( 4.6%) 
+planes                2310/65536       46200/1310720  ( 3.5%) 
+vertexes              5636/65536       67632/786432   ( 8.6%) 
+nodes                 2370/65536       75840/2097152  ( 3.6%) 
+texinfos               370/12288       26640/884736   ( 3.0%) 
+texdata                130/2048         4160/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3767/65536      210952/3670016  ( 5.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1984/65536      111104/3670016  ( 3.0%) 
+leaves                2416/65536       77312/2097152  ( 3.7%) 
+leaffaces             4300/65536        8600/131072   ( 6.6%) 
+leafbrushes           1298/65536        2596/131072   ( 2.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            26102/512000     104408/2048000  ( 5.1%) 
+edges                14416/256000      57664/1024000  ( 5.6%) 
+LDR worldlights         43/8192         3784/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            329/32768        3290/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5373/65536       10746/131072   ( 8.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1341680/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      281075/16777216 ( 1.7%) 
+entdata               [variable]      165007/393216   (42.0%) 
+LDR ambient table     2416/65536        9664/262144   ( 3.7%) 
+HDR ambient table     2416/65536        9664/262144   ( 3.7%) 
+LDR leaf ambient      9082/65536      254296/1835008  (13.9%) 
+HDR leaf ambient      2416/65536       67648/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11614    ( 0.0%) 
+pakfile               [variable]      212312/0        ( 0.0%) 
+physics               [variable]      248618/4194304  ( 5.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10604
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+28 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3767 faces
+533539 square feet [76829744.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3767 patches before subdivision
+38219 patches after subdivision
+43 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2432532, max 472
+transfer lists:  18.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36538, 23465, 22893)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7456, 3110, 2888)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2042, 508, 454)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(675, 92, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(262, 19, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(111, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(50, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0129 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                483/8192         5796/98304    ( 5.9%) 
+brushsides            3045/65536       24360/524288   ( 4.6%) 
+planes                2310/65536       46200/1310720  ( 3.5%) 
+vertexes              5636/65536       67632/786432   ( 8.6%) 
+nodes                 2370/65536       75840/2097152  ( 3.6%) 
+texinfos               370/12288       26640/884736   ( 3.0%) 
+texdata                130/2048         4160/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3767/65536      210952/3670016  ( 5.7%) 
+hdr faces             3767/65536      210952/3670016  ( 5.7%) 
+origfaces             1984/65536      111104/3670016  ( 3.0%) 
+leaves                2416/65536       77312/2097152  ( 3.7%) 
+leaffaces             4300/65536        8600/131072   ( 6.6%) 
+leafbrushes           1298/65536        2596/131072   ( 2.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            26102/512000     104408/2048000  ( 5.1%) 
+edges                14416/256000      57664/1024000  ( 5.6%) 
+LDR worldlights         43/8192         3784/720896   ( 0.5%) 
+HDR worldlights         43/8192         3784/720896   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            329/32768        3290/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5373/65536       10746/131072   ( 8.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1341680/0        ( 0.0%) 
+HDR lightdata         [variable]     1341680/0        ( 0.0%) 
+visdata               [variable]      281075/16777216 ( 1.7%) 
+entdata               [variable]      165007/393216   (42.0%) 
+LDR ambient table     2416/65536        9664/262144   ( 3.7%) 
+HDR ambient table     2416/65536        9664/262144   ( 3.7%) 
+LDR leaf ambient      9082/65536      254296/1835008  (13.9%) 
+HDR leaf ambient      9082/65536      254296/1835008  (13.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11614    ( 0.0%) 
+pakfile               [variable]      212312/0        ( 0.0%) 
+physics               [variable]      248618/4194304  ( 5.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10604
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+28 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (248618 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 435 texinfos to 370
+Reduced 133 texdatas to 130 (3085 bytes to 2932)
+Writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.prt
+1076 portalclusters
+3125 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 97019 visible clusters (15.22%)
+Total clusters visible: 637405
+Average clusters visible: 592
+Building PAS...
+Average clusters audible: 1024
+visdatasize:281075  compressed from 292672
+writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3767 faces
+533539 square feet [76829744.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3767 patches before subdivision
+38219 patches after subdivision
+43 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2432532, max 472
+transfer lists:  18.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36538, 23465, 22893)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7456, 3110, 2888)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2042, 508, 454)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(675, 92, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(262, 19, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(111, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(50, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0125 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                483/8192         5796/98304    ( 5.9%) 
+brushsides            3045/65536       24360/524288   ( 4.6%) 
+planes                2310/65536       46200/1310720  ( 3.5%) 
+vertexes              5636/65536       67632/786432   ( 8.6%) 
+nodes                 2370/65536       75840/2097152  ( 3.6%) 
+texinfos               370/12288       26640/884736   ( 3.0%) 
+texdata                130/2048         4160/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3767/65536      210952/3670016  ( 5.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1984/65536      111104/3670016  ( 3.0%) 
+leaves                2416/65536       77312/2097152  ( 3.7%) 
+leaffaces             4300/65536        8600/131072   ( 6.6%) 
+leafbrushes           1298/65536        2596/131072   ( 2.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            26102/512000     104408/2048000  ( 5.1%) 
+edges                14416/256000      57664/1024000  ( 5.6%) 
+LDR worldlights         43/8192         3784/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            329/32768        3290/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5373/65536       10746/131072   ( 8.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1341680/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      281075/16777216 ( 1.7%) 
+entdata               [variable]      165007/393216   (42.0%) 
+LDR ambient table     2416/65536        9664/262144   ( 3.7%) 
+HDR ambient table     2416/65536        9664/262144   ( 3.7%) 
+LDR leaf ambient      9082/65536      254296/1835008  (13.9%) 
+HDR leaf ambient      2416/65536       67648/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11614    ( 0.0%) 
+pakfile               [variable]      212312/0        ( 0.0%) 
+physics               [variable]      248618/4194304  ( 5.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10604
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+25 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3767 faces
+533539 square feet [76829744.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3767 patches before subdivision
+38219 patches after subdivision
+43 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2432532, max 472
+transfer lists:  18.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36538, 23465, 22893)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7456, 3110, 2888)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2042, 508, 454)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(675, 92, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(262, 19, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(111, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(50, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0137 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                483/8192         5796/98304    ( 5.9%) 
+brushsides            3045/65536       24360/524288   ( 4.6%) 
+planes                2310/65536       46200/1310720  ( 3.5%) 
+vertexes              5636/65536       67632/786432   ( 8.6%) 
+nodes                 2370/65536       75840/2097152  ( 3.6%) 
+texinfos               370/12288       26640/884736   ( 3.0%) 
+texdata                130/2048         4160/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3767/65536      210952/3670016  ( 5.7%) 
+hdr faces             3767/65536      210952/3670016  ( 5.7%) 
+origfaces             1984/65536      111104/3670016  ( 3.0%) 
+leaves                2416/65536       77312/2097152  ( 3.7%) 
+leaffaces             4300/65536        8600/131072   ( 6.6%) 
+leafbrushes           1298/65536        2596/131072   ( 2.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            26102/512000     104408/2048000  ( 5.1%) 
+edges                14416/256000      57664/1024000  ( 5.6%) 
+LDR worldlights         43/8192         3784/720896   ( 0.5%) 
+HDR worldlights         43/8192         3784/720896   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            329/32768        3290/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5373/65536       10746/131072   ( 8.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1341680/0        ( 0.0%) 
+HDR lightdata         [variable]     1341680/0        ( 0.0%) 
+visdata               [variable]      281075/16777216 ( 1.7%) 
+entdata               [variable]      165007/393216   (42.0%) 
+LDR ambient table     2416/65536        9664/262144   ( 3.7%) 
+HDR ambient table     2416/65536        9664/262144   ( 3.7%) 
+LDR leaf ambient      9082/65536      254296/1835008  (13.9%) 
+HDR leaf ambient      9082/65536      254296/1835008  (13.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11614    ( 0.0%) 
+pakfile               [variable]      212312/0        ( 0.0%) 
+physics               [variable]      248618/4194304  ( 5.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10604
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+28 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (248618 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 435 texinfos to 370
+Reduced 133 texdatas to 130 (3085 bytes to 2932)
+Writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.prt
+1088 portalclusters
+3140 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 95847 visible clusters (14.81%)
+Total clusters visible: 647183
+Average clusters visible: 594
+Building PAS...
+Average clusters audible: 1030
+visdatasize:286156  compressed from 295936
+writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3781 faces
+533539 square feet [76829744.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3781 patches before subdivision
+38575 patches after subdivision
+43 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2473439, max 471
+transfer lists:  18.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36979, 23628, 22948)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7527, 3127, 2897)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2086, 511, 455)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(685, 93, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(269, 19, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(112, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(51, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0154 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                483/8192         5796/98304    ( 5.9%) 
+brushsides            3045/65536       24360/524288   ( 4.6%) 
+planes                2310/65536       46200/1310720  ( 3.5%) 
+vertexes              5657/65536       67884/786432   ( 8.6%) 
+nodes                 2392/65536       76544/2097152  ( 3.6%) 
+texinfos               370/12288       26640/884736   ( 3.0%) 
+texdata                130/2048         4160/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3781/65536      211736/3670016  ( 5.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1987/65536      111272/3670016  ( 3.0%) 
+leaves                2438/65536       78016/2097152  ( 3.7%) 
+leaffaces             4310/65536        8620/131072   ( 6.6%) 
+leafbrushes           1307/65536        2614/131072   ( 2.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            26195/512000     104780/2048000  ( 5.1%) 
+edges                14449/256000      57796/1024000  ( 5.6%) 
+LDR worldlights         43/8192         3784/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            329/32768        3290/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5385/65536       10770/131072   ( 8.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1341736/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      286156/16777216 ( 1.7%) 
+entdata               [variable]      182807/393216   (46.5%) 
+LDR ambient table     2438/65536        9752/262144   ( 3.7%) 
+HDR ambient table     2438/65536        9752/262144   ( 3.7%) 
+LDR leaf ambient      9145/65536      256060/1835008  (14.0%) 
+HDR leaf ambient      2438/65536       68264/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11618    ( 0.0%) 
+pakfile               [variable]      212312/0        ( 0.0%) 
+physics               [variable]      248618/4194304  ( 5.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10657
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+29 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3781 faces
+533539 square feet [76829744.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3781 patches before subdivision
+38575 patches after subdivision
+43 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2473439, max 471
+transfer lists:  18.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36979, 23628, 22948)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7527, 3127, 2897)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2086, 511, 455)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(685, 93, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(269, 19, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(112, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(51, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0261 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                483/8192         5796/98304    ( 5.9%) 
+brushsides            3045/65536       24360/524288   ( 4.6%) 
+planes                2310/65536       46200/1310720  ( 3.5%) 
+vertexes              5657/65536       67884/786432   ( 8.6%) 
+nodes                 2392/65536       76544/2097152  ( 3.6%) 
+texinfos               370/12288       26640/884736   ( 3.0%) 
+texdata                130/2048         4160/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3781/65536      211736/3670016  ( 5.8%) 
+hdr faces             3781/65536      211736/3670016  ( 5.8%) 
+origfaces             1987/65536      111272/3670016  ( 3.0%) 
+leaves                2438/65536       78016/2097152  ( 3.7%) 
+leaffaces             4310/65536        8620/131072   ( 6.6%) 
+leafbrushes           1307/65536        2614/131072   ( 2.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            26195/512000     104780/2048000  ( 5.1%) 
+edges                14449/256000      57796/1024000  ( 5.6%) 
+LDR worldlights         43/8192         3784/720896   ( 0.5%) 
+HDR worldlights         43/8192         3784/720896   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            329/32768        3290/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5385/65536       10770/131072   ( 8.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1341736/0        ( 0.0%) 
+HDR lightdata         [variable]     1341736/0        ( 0.0%) 
+visdata               [variable]      286156/16777216 ( 1.7%) 
+entdata               [variable]      182807/393216   (46.5%) 
+LDR ambient table     2438/65536        9752/262144   ( 3.7%) 
+HDR ambient table     2438/65536        9752/262144   ( 3.7%) 
+LDR leaf ambient      9145/65536      256060/1835008  (14.0%) 
+HDR leaf ambient      9145/65536      256060/1835008  (14.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11618    ( 0.0%) 
+pakfile               [variable]      212312/0        ( 0.0%) 
+physics               [variable]      248618/4194304  ( 5.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10657
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+29 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (248618 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 435 texinfos to 370
+Reduced 133 texdatas to 130 (3085 bytes to 2932)
+Writing C:\Users\Kieran\Documents\GitHub\HL2_Nova_Prospekt_mod\NP_Utility_01_V2.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+reading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.prt
+1088 portalclusters
+3140 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 95847 visible clusters (14.81%)
+Total clusters visible: 647183
+Average clusters visible: 594
+Building PAS...
+Average clusters audible: 1030
+visdatasize:286156  compressed from 295936
+writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3781 faces
+533539 square feet [76829744.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3781 patches before subdivision
+38575 patches after subdivision
+43 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2473439, max 471
+transfer lists:  18.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36979, 23628, 22948)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7527, 3127, 2897)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2086, 511, 455)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(685, 93, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(269, 19, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(112, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(51, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0174 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                483/8192         5796/98304    ( 5.9%) 
+brushsides            3045/65536       24360/524288   ( 4.6%) 
+planes                2310/65536       46200/1310720  ( 3.5%) 
+vertexes              5657/65536       67884/786432   ( 8.6%) 
+nodes                 2392/65536       76544/2097152  ( 3.6%) 
+texinfos               370/12288       26640/884736   ( 3.0%) 
+texdata                130/2048         4160/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3781/65536      211736/3670016  ( 5.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1987/65536      111272/3670016  ( 3.0%) 
+leaves                2438/65536       78016/2097152  ( 3.7%) 
+leaffaces             4310/65536        8620/131072   ( 6.6%) 
+leafbrushes           1307/65536        2614/131072   ( 2.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            26195/512000     104780/2048000  ( 5.1%) 
+edges                14449/256000      57796/1024000  ( 5.6%) 
+LDR worldlights         43/8192         3784/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            329/32768        3290/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5385/65536       10770/131072   ( 8.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1341736/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      286156/16777216 ( 1.7%) 
+entdata               [variable]      182819/393216   (46.5%) 
+LDR ambient table     2438/65536        9752/262144   ( 3.7%) 
+HDR ambient table     2438/65536        9752/262144   ( 3.7%) 
+LDR leaf ambient      9145/65536      256060/1835008  (14.0%) 
+HDR leaf ambient      2438/65536       68264/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11618    ( 0.0%) 
+pakfile               [variable]      212312/0        ( 0.0%) 
+physics               [variable]      248618/4194304  ( 5.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10657
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+29 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+3781 faces
+533539 square feet [76829744.00 square inches]
+1 Displacements
+233 Square Feet [33563.03 Square Inches]
+3781 patches before subdivision
+38575 patches after subdivision
+43 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2473439, max 471
+transfer lists:  18.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36979, 23628, 22948)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7527, 3127, 2897)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2086, 511, 455)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(685, 93, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(269, 19, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(112, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(51, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0143 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  45/1024         2160/49152    ( 4.4%) 
+brushes                483/8192         5796/98304    ( 5.9%) 
+brushsides            3045/65536       24360/524288   ( 4.6%) 
+planes                2310/65536       46200/1310720  ( 3.5%) 
+vertexes              5657/65536       67884/786432   ( 8.6%) 
+nodes                 2392/65536       76544/2097152  ( 3.6%) 
+texinfos               370/12288       26640/884736   ( 3.0%) 
+texdata                130/2048         4160/65536    ( 6.3%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples         765/0             765/0        ( 0.0%) 
+faces                 3781/65536      211736/3670016  ( 5.8%) 
+hdr faces             3781/65536      211736/3670016  ( 5.8%) 
+origfaces             1987/65536      111272/3670016  ( 3.0%) 
+leaves                2438/65536       78016/2097152  ( 3.7%) 
+leaffaces             4310/65536        8620/131072   ( 6.6%) 
+leafbrushes           1307/65536        2614/131072   ( 2.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            26195/512000     104780/2048000  ( 5.1%) 
+edges                14449/256000      57796/1024000  ( 5.6%) 
+LDR worldlights         43/8192         3784/720896   ( 0.5%) 
+HDR worldlights         43/8192         3784/720896   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            329/32768        3290/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5385/65536       10770/131072   ( 8.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays               114/512         40128/180224   (22.3%) 
+LDR lightdata         [variable]     1341736/0        ( 0.0%) 
+HDR lightdata         [variable]     1341736/0        ( 0.0%) 
+visdata               [variable]      286156/16777216 ( 1.7%) 
+entdata               [variable]      182819/393216   (46.5%) 
+LDR ambient table     2438/65536        9752/262144   ( 3.7%) 
+HDR ambient table     2438/65536        9752/262144   ( 3.7%) 
+LDR leaf ambient      9145/65536      256060/1835008  (14.0%) 
+HDR leaf ambient      9145/65536      256060/1835008  (14.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11618    ( 0.0%) 
+pakfile               [variable]      212312/0        ( 0.0%) 
+physics               [variable]      248618/4194304  ( 5.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10657
+Writing c:\users\kieran\documents\github\hl2_nova_prospekt_mod\NP_Utility_01_V2.bsp
+30 seconds elapsed

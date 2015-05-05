@@ -1,0 +1,161 @@
+
+
+
+materialPath: G:\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\ep2\materials
+Loading T:\HL2_Lambda_Prospekt\prologue_02.vmf
+Could not locate 'GameData' key in g:\steam\steamapps\common\source sdk base 2013 singleplayer\ep2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing T:\HL2_Lambda_Prospekt\prologue_02.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: overflowed 52 displacement corner-neighbor lists.Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+Displacement 21 has bad geometry near 1360.00 12160.00 77.56
+Can't compile displacement physics, exiting.  Texture is NATURE/BLENDGRASSGRASS001A
+
+
+
+8 threads
+reading t:\hl2_lambda_prospekt\prologue_02.bsp
+Error opening t:\hl2_lambda_prospekt\prologue_02.bsp
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading t:\hl2_lambda_prospekt\prologue_02.bsp
+Error opening t:\hl2_lambda_prospekt\prologue_02.bsp
+
+
+materialPath: G:\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\ep2\materials
+Loading T:\HL2_Lambda_Prospekt\prologue_02.vmf
+Could not locate 'GameData' key in g:\steam\steamapps\common\source sdk base 2013 singleplayer\ep2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing T:\HL2_Lambda_Prospekt\prologue_02.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: overflowed 58 displacement corner-neighbor lists.Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+Displacement 21 has bad geometry near 1360.00 12160.00 77.56
+Can't compile displacement physics, exiting.  Texture is NATURE/BLENDGRASSGRASS001A
+
+
+
+8 threads
+reading t:\hl2_lambda_prospekt\prologue_02.bsp
+Error opening t:\hl2_lambda_prospekt\prologue_02.bsp
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading t:\hl2_lambda_prospekt\prologue_02.bsp
+Error opening t:\hl2_lambda_prospekt\prologue_02.bsp
+
+
+materialPath: G:\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\ep2\materials
+Loading T:\HL2_Lambda_Prospekt\prologue_02.vmf
+Could not locate 'GameData' key in g:\steam\steamapps\common\source sdk base 2013 singleplayer\ep2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing T:\HL2_Lambda_Prospekt\prologue_02.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: overflowed 58 displacement corner-neighbor lists.Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+Displacement 21 has bad geometry near 1360.00 12160.00 77.56
+Can't compile displacement physics, exiting.  Texture is NATURE/BLENDGRASSGRASS001A
+
+
+
+8 threads
+reading t:\hl2_lambda_prospekt\prologue_02.bsp
+Error opening t:\hl2_lambda_prospekt\prologue_02.bsp
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading t:\hl2_lambda_prospekt\prologue_02.bsp
+Error opening t:\hl2_lambda_prospekt\prologue_02.bsp
+
+
+materialPath: G:\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\ep2\materials
+Loading T:\HL2_Lambda_Prospekt\prologue_02.vmf
+Could not locate 'GameData' key in g:\steam\steamapps\common\source sdk base 2013 singleplayer\ep2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing T:\HL2_Lambda_Prospekt\prologue_02.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: overflowed 58 displacement corner-neighbor lists.Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+Displacement 21 has bad geometry near 1360.00 12160.00 77.56
+Can't compile displacement physics, exiting.  Texture is NATURE/BLENDGRASSGRASS001A
+
+
+
+8 threads
+reading t:\hl2_lambda_prospekt\prologue_02.bsp
+Error opening t:\hl2_lambda_prospekt\prologue_02.bsp
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading t:\hl2_lambda_prospekt\prologue_02.bsp
+Error opening t:\hl2_lambda_prospekt\prologue_02.bsp

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "111"
+	"mapversion" "113"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "111"
+	"mapversion" "113"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -19157,6 +19157,7 @@ entity
 	connections
 	{
 		"OnStartTouch" "APC_driver_driveby_1,GotoPathCorner,path_apc_1,0,1"
+		"OnStartTouch" "dropship_maker,Enable,,0,1"
 	}
 	solid
 	{
@@ -21886,6 +21887,7 @@ entity
 	"rendermode" "0"
 	"sleepstate" "0"
 	"spawnflags" "2564"
+	"target" "path_dropships_1"
 	"targetname" "combinedropship_1"
 	"wakeradius" "0"
 	"wakesquad" "0"
@@ -42833,7 +42835,7 @@ entity
 	"angles" "0 0 0"
 	"nodeheight" "0"
 	"nodeid" "1717"
-	"origin" "2976 -2224 1104"
+	"origin" "4960 -2176 1104"
 	editor
 	{
 		"color" "232 171 8"
@@ -70866,6 +70868,253 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "35841"
+	"classname" "path_corner"
+	"angles" "0 0 0"
+	"speed" "0"
+	"target" "path_dropships_2"
+	"targetname" "path_dropships_1"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "6016 -2176 608"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "35844"
+	"classname" "path_corner"
+	"angles" "0 0 0"
+	"speed" "0"
+	"target" "path_dorpships_3"
+	"targetname" "path_dropships_2"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "4176 -2192 608"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "35847"
+	"classname" "path_corner"
+	"angles" "0 0 0"
+	"speed" "0"
+	"target" "path_dropship_4"
+	"targetname" "path_dorpships_3"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "2752 -2192 608"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "35850"
+	"classname" "path_corner"
+	"angles" "0 0 0"
+	"speed" "0"
+	"target" "path_dropships_5"
+	"targetname" "path_dropship_4"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "2389 -2192 608"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "35853"
+	"classname" "path_corner"
+	"angles" "0 0 0"
+	"speed" "0"
+	"target" "path_dropships_6"
+	"targetname" "path_dropships_5"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "2168 -2192 608"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "35856"
+	"classname" "path_corner"
+	"angles" "0 0 0"
+	"speed" "0"
+	"target" "path_dropships_7"
+	"targetname" "path_dropships_6"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "1688 -2192 608"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "35859"
+	"classname" "path_corner"
+	"angles" "0 0 0"
+	"speed" "0"
+	"target" "path_dropships_8"
+	"targetname" "path_dropships_7"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "1256 -2192 608"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "35862"
+	"classname" "path_corner"
+	"angles" "0 0 0"
+	"speed" "0"
+	"target" "path_dropships_9"
+	"targetname" "path_dropships_8"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "776 -2192 608"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "35865"
+	"classname" "path_corner"
+	"angles" "0 0 0"
+	"speed" "0"
+	"target" "path_dropships_10"
+	"targetname" "path_dropships_9"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "248 -2192 608"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "35868"
+	"classname" "path_corner"
+	"angles" "0 0 0"
+	"speed" "0"
+	"target" "path_dropships_11"
+	"targetname" "path_dropships_10"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "-296 -2192 608"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "35871"
+	"classname" "path_corner"
+	"angles" "0 0 0"
+	"speed" "0"
+	"target" "path_dropships_12"
+	"targetname" "path_dropships_11"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "-680 -2192 608"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "35874"
+	"classname" "path_corner"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"speed" "0"
+	"target" "path_dropships_13"
+	"targetname" "path_dropships_12"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "-1608 -2192 608"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "35877"
+	"classname" "path_corner"
+	"angles" "0 0 0"
+	"speed" "0"
+	"targetname" "path_dropships_13"
+	"wait" "0"
+	"yaw_speed" "0"
+	"origin" "-2072 -2192 608"
+	editor
+	{
+		"color" "247 181 82"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
 	}
 }
 cameras
